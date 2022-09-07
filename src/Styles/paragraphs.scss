@@ -1,0 +1,49 @@
+.box {
+  text-align: start;
+  form {
+    text-align: center;
+    margin: $gap 0;
+    width: 100%;
+    background-color: $gray;
+    display: flex;
+    align-items: center;
+    gap: $gap;
+    flex-flow: row nowrap;
+    border-radius: $radius;
+    padding: $gap;
+    label {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    input[type="number"] {
+      padding: 10px 15px;
+      background-color: white;
+      width: 60%;
+      border-radius: $radius;
+      border: none;
+      outline: none;
+      &:focus {
+        outline: 1px solid $color;
+      }
+    }
+    input[type="submit"] {
+      cursor: pointer;
+      background-color: $color;
+      color: white;
+      font-weight: 500;
+      width: 30%;
+      font-size: 18px;
+      border: none;
+      border-radius: $radius;
+      padding: 10px 15px;
+    }
+  }
+  .box {
+    margin-top: $gap;
+    ul {
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
